@@ -1,11 +1,11 @@
 #include "simple_main.h"
 /**
- * _getPath - A function to gets the full value from.
+ * get_path - A function to gets the full value from.
  * enviromental variable PATH.
  * @env: The pointer to enviromental variables.
  * Return: All tokenized pathways for prognames.
  */
-char **_getPath(char **env)
+char **get_path(char **env)
 {
 	char *pathvalue = NULL, **pathways = NULL;
 	unsigned int i = 0;

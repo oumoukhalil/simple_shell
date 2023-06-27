@@ -26,7 +26,7 @@ void execute(char **progname, char *name, char **env, int fact)
 	}
 	else
 	{
-		pathways = _getPATH(env);
+		pathways = get_path(env);
 		while (pathways[i])
 		{
 			full_path = _strcat(pathways[i], progname[0]);
