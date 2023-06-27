@@ -26,8 +26,8 @@ int change_dir(const char *path);
 
 void execute(char **progname, char *name, char **env, int fact);
 void print_env(char **env);
-char **_getPATH(char **env);
-void msgerror(char *name, int factcode , char **progname);
+char **_getPath(char **env);
+void msgerror(char *name, int factcode, char **progname);
 
 char **string_progname(char *buffer, const char *s);
 

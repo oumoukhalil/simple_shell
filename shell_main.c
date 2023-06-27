@@ -1,7 +1,7 @@
 #include "simple_main.h"
 
 /**
- * main_function - main entry to start all run.
+ * main - main entry to start all run.
  * @ac: number of arguments.
  * @av: array of inputed arguments.
  * @env: enviromental variables.
